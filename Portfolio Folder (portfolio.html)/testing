@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href='https://fonts.googleapis.com/css?family=Eater' rel='stylesheet'>
+
+<style>
+body {background-color: #f7e6ff;}
+h1{color:violet;
+text-align: center; font-family: 'Eater';}
+p{font-size:18px;}
+p2{font-size: 20px}
+h4{font-size: 22px}
+</style>
+</head>
+<body>
+
+	<h1> Digital Media Portfolio</h1>
+	<hr>
+	<p> I am a Studio Practice major at San Jose State University.</p>
+	      <hr class="w3-opacity">
+      <h4 class="w3-padding-16">Technical Skills</h4>
+      <p class="w3-wide">Photography</p>
+      </div>
+      <p class="w3-wide">Studio Practice</p>
+      </div>
+      <p class="w3-wide">Photoshop Fundamentals</p>
+      </div>
+      <p class="w3-wide">Illustrator Fundamentals</p>
+  </div>
+      <hr>
+
+<p><a href="file:///Users/emily/Downloads/EmilyKangResume.html"> Resume </a> </p>
+<a href="https://www.linkedin.com/in/emily-kang-446868117/"> Linked In </a>
+   </p>
+      <p>email: kang.emily@gmail.com</p>
+     
+     
+ 
+</body>
+</html>
