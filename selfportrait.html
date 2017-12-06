@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+	<title>Emily Kang Glitch</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style>
+	body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+	.w3-row-padding img {margin-bottom: 12px}
+	/* Set the width of the sidebar to 120px */
+	.w3-sidebar {width: 120px;background: #222;}
+	/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+	#main {margin-left: 120px}
+	/* Remove margins from "page content" on small screens */
+	@media only screen and (max-width: 600px) {#main {margin-left:30}}
+	.image-layout {margin-left: 150px}
+	.lmargin { margin-left:100 }
+
+	</style>
+	<body class="w3-black">
+		<head>
+			<meta charset="utf-8">
+			<style>
+				body {
+					background-color: #000000;
+					margin: 0;
+					overflow: hidden;
+					}
+			</style>
+		</head>
+		<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+		  <!-- Avatar image in top left corner -->
+		  <a href="index.html#" class="w3-bar-item w3-button w3-padding-large w3-black">
+		    <i class="fa fa-home w3-xxlarge"></i>
+		    <p>HOME</p>
+		  </a>
+		  <a href="index.html#artiststatement" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+		    <i class="fa fa-user w3-xxlarge"></i>
+		    <p>ARTIST STATEMENT</p>
+		  </a>
+		  <a href="index.html#portfolio" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+		    <i class="fa fa-eye w3-xxlarge"></i>
+		    <p>PORTFOLIO</p>
+		  </a>
+		  <a href="index.html#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+		    <i class="fa fa-envelope w3-xxlarge"></i>
+		    <p>CONTACT</p>
+		  </a>
+		</nav>
+		<div class="image-layout">
+			<img src="img/selfportrait.png" width="700">
+			<p class="w3-xlarge"> The above image was rendered using the following Processing 3 Java code:</p>
+				<p class="lmargin">
+				size(500,500);
+				<br>//hair\\
+				<br>fill(67,58,22);
+				<br>noStroke();
+				<br>ellipse(250,250,300,400);
+				<br>
+				<br>//Face Shape\\
+				<br>fill(255,245,209);
+				<br>noStroke();
+				<br>ellipse(250,220,200,240);
+				<br>
+				<br>//Eyes L to R\\
+				<br>fill(255,254,252);
+				<br>stroke(0);
+				<br>ellipse(200,180,50,30);
+				<br>
+				<br>fill(255,254,252);
+				<br>stroke(0);
+				<br>ellipse(300,180,50,30);
+				<br>
+				<br>//Pupil L to R\\
+				<br>fill(67,58,22);
+				<br>noStroke();
+				<br>ellipse(200,180,25,25);
+				<br>
+				<br>fill(67,58,22);
+				<br>noStroke();
+				<br>ellipse(300,180,25,25);
+				<br>
+				<br>//Neck\\
+				<br>fill(255,245,209);
+				<br>noStroke();
+				<br>rectMode(CENTER);
+				<br>rect(250,330,50,200);
+				<br>
+				<br>//Nose\\
+				<br>fill(240,220,145);
+				<br>noStroke();
+				<br>triangle(240,240,260,240,250,210);
+				<br>
+				<br>//Mouth\\
+				<br>noFill();
+				<br>stroke(0);
+				<br>strokeWeight(2);
+				<br>arc(250,270,90,50,0.3,2.8);
+				<br>
+				<br>//Shirt\\
+				<br>fill(227,201,252);
+				<br>noStroke();
+				<br>rect(250,470,200,200,35);
+			</p>
+
+		</div>
+	</body>
+</html>
